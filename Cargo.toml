@@ -1,0 +1,14 @@
+[package]
+authors = ["BrilliantSky <greenmtnee@gmail.com>"]
+edition = "2018"
+name = "blinky_f4"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.6.3"
+cortex-m-rt = "0.6.3"
+panic-itm = "0.4.0"
+
+[dependencies.stm32f4xx-hal]
+features = ["stm32f429", "rt"]
+version = "0.8.3"
